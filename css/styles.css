@@ -1,0 +1,112 @@
+body {
+  align-items: center;
+  align-self: center;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  font-family: "Red Hat Display", sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  
+}
+main {
+  background-color: white;
+  border-radius: 15px;
+  width: 30%;
+}
+.hero {
+  border-radius: 15px 15px 0 0;
+  position: relative;
+  width: 100%;
+}
+h1 {
+  color: hsl(223, 47%, 23%);
+  padding-top: 5px;
+}
+p {
+  color: hsl(224, 23%, 55%);
+  margin: auto;
+  width: 70%;
+}
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 30px;
+  margin-top: 15px;
+  margin: 5% auto 7% auto;
+  padding-left: 4%;
+  padding-top: 5%;
+  padding: 15px 0 15px 0;
+  position: relative;
+  text-align: left;
+  width: 80%;
+}
+.btn1 {
+  background: hsl(245, 75%, 52%);
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  padding: 15px 0;
+  text-decoration: none;
+  width: 80%;
+}
+.btn1:hover {
+  background: hsl(224, 23%, 55%);
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn2 {
+  background-color: white;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5% 0 10% 0;
+}
+.btn2:hover {
+  color: rgb(56, 42, 225);
+  cursor: pointer;
+}
+.attribution {
+  bottom: 2%;
+  position: absolute;
+}
+.btn3 {
+  background-color: inherit;
+  border: none;
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  position: absolute;
+  right: 5%;
+  text-decoration: underline;
+  top: 40%;
+}
+.btn3:hover {
+  color: hsl(224, 23%, 55%);
+  cursor: pointer;
+  text-decoration: none;
+}
+.planprice {
+  left: 15%;
+  position: absolute;
+  top: 27%;
+  width: 60%;
+}
+.plan-name {
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  main {
+    display: block;
+    width: 90%;
+  }
+  .text{
+      width: 85%;
+      font-weight: 500;
+  }
+}
